@@ -1,0 +1,32 @@
+# Ignorar dependências do Node.js (já são instaladas no container)
+node_modules
+npm-debug.log
+
+# Ignorar arquivos de build TypeScript (gerados pela compilação)
+dist
+build
+
+# Ignorar arquivos de configuração de editor de texto
+.vscode
+.idea
+*.swp
+
+# Ignorar arquivos de configuração do Git
+.git
+.gitignore
+
+# Ignorar arquivos temporários
+*.log
+*.tmp
+*.bak
+
+# Ignorar arquivos de testes locais
+coverage
+
+# Ignorar arquivos de configuração do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de configuração de ferramentas
+.eslintcache
+.husky

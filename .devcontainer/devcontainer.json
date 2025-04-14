@@ -1,0 +1,35 @@
+{
+  "name": "Node Dev Container",
+  "image": "debian:latest",
+  "runArgs": [
+    "--privileged",
+    "--volume",
+    "/var/run/docker.sock:/var/run/docker.sock"
+  ],
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.profiles.linux": {
+          "bash": {
+            "path": "/bin/bash",
+            "icon": "terminal-bash"
+          }
+        },
+        "terminal.integrated.defaultProfile.linux": "bash"
+      },
+      "extensions": [
+        "ms-vscode.vscode-typescript-next",
+        "pmneo.tsimporter",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "eamodio.gitlens",
+        "firsttris.vscode-jest-runner",
+        "ms-vscode.js-debug-nightly",
+        "ms-azuretools.vscode-docker",
+        "ms-vscode-remote.remote-containers",
+        "github.copilot"
+      ]
+    }
+  },
+  "postCreateCommand": "apt update && apt install -y build-essential docker.io docker-compose git curl && curl -fsSL https://deb.nodesource.com/setup_20.x | bash - && apt install -y nodejs && npm install -g @fsouza/prettierd"
+}
