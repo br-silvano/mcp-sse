@@ -1,5 +1,7 @@
 # MCP Server com SSE e Autenticação Bearer
 
+[![Build](https://github.com/br-silvano/mcp-sse/actions/workflows/build.yml/badge.svg)](https://github.com/br-silvano/mcp-sse/actions/workflows/build.yml)
+
 Este projeto é uma implementação de um **MCP Server** (Model Context Protocol) construído em **TypeScript**. Ele utiliza **Server-Sent Events (SSE)** para o transporte remoto de mensagens e autenticação baseada em **Bearer Token**, permitindo a comunicação segura e em tempo real com clientes, como hosts de LLM (ex.: Claude Desktop).
 
 ---
