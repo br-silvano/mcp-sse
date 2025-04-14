@@ -24,7 +24,7 @@ jobs:
         run: npm install
 
       - name: Build
-        run: make build
+        run: npm run build
 
       - name: Upload do Artifact
         uses: actions/upload-artifact@v4
