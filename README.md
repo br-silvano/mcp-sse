@@ -198,4 +198,4 @@ Este projeto está licenciado sob a [MIT License](LICENSE).
 
 ---
 
-*Documentação atualizada em 14/04/2025.*
+*Documentação atualizada em 15/04/2025.*
