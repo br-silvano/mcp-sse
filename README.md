@@ -20,14 +20,14 @@ Este projeto é uma implementação de um **MCP Server** (Model Context Protocol
 
 ---
 
-## Visão Geral <a href="#visao-geral"></a>
+## Visão Geral
 
 Este projeto implementa um servidor MCP que expõe ferramentas (tools) para serem chamadas via protocolo MCP, utilizando SSE para comunicação em tempo real e autenticando requisições através de um token Bearer.
 <a href="https://modelcontext.org" target="_blank" rel="noopener noreferrer">Saiba mais sobre o protocolo MCP no site oficial</a>
 
 ---
 
-## Arquitetura <a href="#arquitetura"></a>
+## Arquitetura
 
 A arquitetura do projeto é composta pelos seguintes módulos:
 
@@ -39,7 +39,7 @@ A arquitetura do projeto é composta pelos seguintes módulos:
 
 ---
 
-## Recursos e Funcionalidades <a href="#recursos-e-funcionalidades"></a>
+## Recursos e Funcionalidades
 
 - **Transporte SSE:** Conexão remota em tempo real usando Server-Sent Events.
 - **Autenticação Bearer:** Verificação de segurança via token fornecido no header `Authorization`.
@@ -49,7 +49,7 @@ A arquitetura do projeto é composta pelos seguintes módulos:
 
 ---
 
-## Requisitos <a href="#requisitos"></a>
+## Requisitos
 
 - **Node.js** (versão 20 ou superior)
 - **npm**
@@ -59,7 +59,7 @@ A arquitetura do projeto é composta pelos seguintes módulos:
 
 ---
 
-## Instalação e Configuração <a href="#instalao-e-configuracao"></a>
+## Instalação e Configuração
 
 1. **Clone o repositório:**
 
@@ -88,7 +88,7 @@ A arquitetura do projeto é composta pelos seguintes módulos:
 
 ---
 
-## Execução <a href="#execucao"></a>
+## Execução
 
 ### Usando `ts-node`
 
@@ -129,7 +129,7 @@ Depois, execute a versão compilada:
 node dist/index.js
 ```
 
-## Diagrama de Sequência <a href="#diagrama-de-sequencia"></a>
+## Diagrama de Sequência
 
 O fluxo de comunicação e uso do MCP Server está ilustrado no diagrama abaixo:
 
@@ -182,7 +182,7 @@ _Nome Recomendado: "Diagrama de Sequência - Fluxo de Comunicação do MCP Serve
 
 ---
 
-## Contribuição <a href="#contribuicao"></a>
+## Contribuição
 
 Contribuições são bem-vindas! Se você deseja melhorar este projeto:
 
@@ -192,7 +192,7 @@ Contribuições são bem-vindas! Se você deseja melhorar este projeto:
 
 ---
 
-## Licença <a href="#licenca"></a>
+## Licença
 
 Este projeto está licenciado sob a [MIT License](LICENSE).
 
