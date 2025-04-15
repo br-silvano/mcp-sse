@@ -43,7 +43,7 @@ A arquitetura do projeto é composta pelos seguintes módulos:
 
 - **Transporte SSE:** Conexão remota em tempo real usando Server-Sent Events.
 - **Autenticação Bearer:** Verificação de segurança via token fornecido no header `Authorization`.
-- **Ferramenta de Exemplo:** Uma ferramenta simples que realiza a soma de dois números, demonstrando a estrutura de registro e execução de tools no MCP Server.
+- **Ferramentas de Exemplo:** Quatro ferramentas simples que realizam as quatro operações básicas de matemática, demonstrando a estrutura de registro e execução de ferramentas no MCP Server.
 - **Estrutura Modular:** Separação de responsabilidades conforme os princípios SOLID e Clean Code.
 - **Desenvolvimento com ts-node:** Execução direta dos arquivos TypeScript sem necessidade de pré-compilação (ideal para desenvolvimento e debugging).
 
